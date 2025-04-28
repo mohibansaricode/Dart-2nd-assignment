@@ -1,3 +1,5 @@
+import 'dart:math';
+
 void main() {
   ///Question no 1
   ///Create a list of names and print all names using list?
@@ -120,7 +122,7 @@ void main() {
 
   // print(usersEligibility);
 
-  // Given a list of integers, write a dart code that returns the maximum value from the list.
+  //Q no 9: Given a list of integers, write a dart code that returns the maximum value from the list.
 
   // List<int> numbers = [9, 24, 3, 25, 134, 245, 32];
 
@@ -143,4 +145,107 @@ void main() {
   // List duplicateElements = fruits.toSet().toList();
   // print(duplicateElements);
 
+  //  Q no 11: Write a Dart code that takes in a list and an integer n as parameters. The program should print a new list containing the frst n elements
+  // from the original list.
+
+  // List<String> fruits = [
+  //   "apple",
+  //   "mango",
+  //   "banana",
+  //   "orange",
+  //   "stawberry",
+  //   "peach",
+  //   "guava",
+  // ];
+  // int n = 4;
+
+  // List nList = fruits.sublist(0, n);
+  // print(nList);
+
+  // Q.12: Write a Dart code that takes in a list of strings and prints a new list with the elements in reverse order. The original list should remain
+  // unchanged.
+
+  // List<String> alphabet = ["a", "b", "c", "d", "e", "f"];
+
+  // var reversedAlpha = alphabet.reversed;
+
+  // List<dynamic> alpha = [reversedAlpha];
+
+  // print(alpha); ///approch 01
+
+  // approch 02
+
+  // List<dynamic> reverseList = alphabet.reversed.toList();
+
+  // print(alphabet);
+
+  // Q.13: Implement a code that takes in a list of integers and returns a new list containing only the unique elements from the original list. The
+  // order of elements in the new list should be the same as in the original list.
+
+  // List<int> myNum = [1, 2, 3, 1, 2, 3,134,35,45,13,542,13,134, 4, 1, 2, 3, 4, 5];
+
+  // List<int> newList = myNum.toSet().toList();
+
+  // print(newList);
+
+  // Q.14: Write a Dart code that takes in a list of integers and prints a new list with the elements sorted in ascending order. The original list should
+  // remain unchanged.
+
+  // List<int> myNum = [1, 9, 6, 4, 3, 5, 2, 7, 8];
+
+  // var newList = myNum.toList();
+
+  // newList.sort();
+
+  // print(newList);
+  //   // print(myNum);
+
+  // Q.15: Implement a Dart code that uses the where() method to flter out negative numbers from a list of integers. The program should take in the
+  // original list as a parameter and print a new list containing only the positive numbers.
+
+  // List<int> myNum = [1, 2, 4, 5, -1, -6, -4, -3];
+
+  // var filterNumPositive = myNum.where((number) => number > 0).toList();
+  // var filterNumNegative = myNum.where((number) => number < 0).toList();
+
+  // print(filterNumPositive);
+  // print(filterNumNegative);
+
+  // Q.16: Implement a Dart code that uses the where() method to flter out odd numbers from a list of integers. The program should take in the
+  // original list as a parameter and print a new list containing only the even numbers.
+
+  // List<int> myNum = [1,2,3,4,5,6,7,8,9,10];
+
+  // var evenNum = myNum.where((number) => number % 2 == 0).toList();
+  // var oddNum = myNum.where((number) => number % 2 != 0).toList();
+
+  // print("Even Numbers: $evenNum");
+  // print("Odd Numbers: $oddNum");
+
+  // Q.17: Given a list of integers, write a Dart code that uses the map() method to create a new list with each value squared. The program should
+  // take in the original list as a parameter and print the new list.
+
+  // List<dynamic> myNum = [3, 4, 2, 5, 1];
+
+  // List<dynamic> squareList = myNum.map((number) => number * number).toList();
+
+  // print(squareList);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 }
