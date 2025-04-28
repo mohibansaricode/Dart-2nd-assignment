@@ -231,21 +231,78 @@ void main() {
 
   // print(squareList);
 
+  //   Q.18: Create a map named "person" with the following key-value pairs: "name" as "John", "age" as 25, "isStudent" as true. Write a Dart code to
+  // check if the person is both a student and over 18 years old. Print "Eligible" if both conditions are true, otherwise print "Not eligible".
+
+  // Map<String, dynamic> person = {"name": "John", "age": 18, "isStudent": true};
+
+  // if (person["age"] >= 18 && person["isStudent"] == true) {
+  //   print("eligible");
+  // } else {
+  //   print("you are not eligible");
+  // }
+
+  //   Q.19: Given a map representing a product with keys "name", "price", and "quantity", write Dart code to check if the product is in stock. If the
+  // quantity is greater than 0, print "In stock", otherwise print "Out of stock".
+
+  // Map<String, dynamic> products = {
+  //   "Name": "Samsung Galaxy",
+  //   "Price": 10.000,
+  //   "Quantity": 0,
+  // };
+
+  // if (products["Quantity"] > 0) {
+  //   print(" In Stock");
+  // } else {
+  //   print("Out Of stock");
+  // }
+
+  // // Q.20: Create a map named "car" with the following key-value pairs: "brand" as "Toyota", "color" as "Red", "isSedan" as true. Write Dart code to
+  // // check if the car is a sedan and red in color. Print "Match" if both conditions are true, otherwise print "No match".
+
+  // Map<String, dynamic> car = {
+  //   "Brand": "Toyota",
+  //   "Color": "Red",
+  //   "isSedan": true,
+  // };
+
+  // if (car["Color"] == "Red" && car["isSedan"] == true) {
+  //   print("match");
+  // } else {
+  //   print("No match");
+  // }
+
+  // Q.21: Given a map representing a user with keys "name", "isAdmin", and "isActive", write Dart code to check if the user is an active admin. If the
+  // user is both an admin and active, print "Active admin", otherwise print "Not an active admin".
+
+  // Map<String, dynamic> fbUser = {
+  //   "Name": "Mohib",
+  //   "isAdmin": true,
+  //   "isActive": true,
+  // };
+
+  // if (fbUser["isAdmin"] == true && fbUser["isActive"] == true) {
+  //   print("Admin Active");
+  // } else {
+  //   print("Not an active admin");
+  // }
+
+  // Q.22: Given a map representing a shopping cart with keys as product names and values as quantities, write Dart code to check if a product
+  // named "Apple" exists in the cart. Print "Product found" if it exists, otherwise print "Product not found".
+
+  // Map<String, dynamic> shoppingCard = {
+  //   "Product Name": [ "Mango", "Banana"],
+  //   "Price": "Rs 10",
+  //   "Quantities": 18,
+  // };
+
+  // var productList = shoppingCard["Product Name"];
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+  // if (productList.contains("Apple")) {
+  //  print("Product found");
+  // } else {
+  //  print("Product not found");
+  // }
 }
